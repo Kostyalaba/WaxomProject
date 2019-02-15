@@ -38,6 +38,24 @@
     src: url('../fonts/Raleway-SemiBold.ttf') format("ttf") ;
 }
 
+.navbar-brand {
+    font-family: "Raleway-Regular", sans-serif;
+    display: inline-block;
+    font-size: 34px;
+    color: white;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-light .navbar-brand:hover {
+    text-decoration: none;
+    color: #c7b299;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
 .main_block {
     background: url("../img/header/main_img.png") no-repeat center;
     background-size: cover;
@@ -45,4 +63,24 @@
 
 .navbar {
     padding-top: 40px;
+}
+
+.header-item {
+    margin-right: 30px;
+    color: #ffffff;
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #c7b299;
+}
+
+.navbar-nav {
+    margin-right: 30px;
+}
+
+.icon-cart {
+    margin-right: 30px;
 }
