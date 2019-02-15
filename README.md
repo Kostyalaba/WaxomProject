@@ -1,3 +1,0 @@
-# Waxom
-
-My second project
