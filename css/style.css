@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Montserrat-ExtraLight";
+    src: url("../fonts/Montserrat-ExtraLight.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf') format("ttf") ;
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('../fonts/Montserrat-Light.ttf') format("ttf") ;
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../fonts/Raleway-Bold.ttf') format("ttf") ;
+}
+
+@font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url('../fonts/Raleway-ExtraBold.ttf') format("ttf") ;
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('../fonts/Raleway-Medium.ttf') format("ttf") ;
+}
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('../fonts/Raleway-Regular.ttf') format("ttf") ;
+}
+
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url('../fonts/Raleway-SemiBold.ttf') format("ttf") ;
+}
+
+.main_block {
+    background: url("../img/header/main_img.png") no-repeat center;
+    background-size: cover;
+}
+
+.navbar {
+    padding-top: 40px;
+}
