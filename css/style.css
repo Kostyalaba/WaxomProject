@@ -84,3 +84,38 @@ a:hover {
 .icon-cart {
     margin-right: 30px;
 }
+
+.block-slider {
+    padding-top: 140px;
+    color: white;
+}
+
+.btn-secondary {
+    border-color: #998675;
+    background-color: #998675;
+    font-family: "Raleway-ExtraBold", sans-serif;
+}
+
+.btn {
+    margin-top: 40px;
+    padding: 15px 30px;
+    margin-bottom: 130px;
+}
+
+h1 {
+    font-family: "Raleway-ExtraBold", sans-serif;
+    font-size: 52px;
+}
+
+.pre-heading {
+    font-family: "Raleway-Medium", sans-serif;
+    font-size: 36px;
+}
+
+.block-slider p {
+    font-family: "Montserrat-Light", sans-serif;
+}
+
+.slick-slide {
+    outline: none
+}
