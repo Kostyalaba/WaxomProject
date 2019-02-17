@@ -99,17 +99,17 @@ a:hover {
 .btn {
     margin-top: 40px;
     padding: 15px 30px;
-    margin-bottom: 130px;
+    margin-bottom: 150px;
 }
 
 h1 {
     font-family: "Raleway-ExtraBold", sans-serif;
-    font-size: 52px;
+    font-size: 45px;
 }
 
 .pre-heading {
     font-family: "Raleway-Medium", sans-serif;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .block-slider p {
@@ -118,4 +118,43 @@ h1 {
 
 .slick-slide {
     outline: none
+}
+
+.block-services {
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.block-services img {
+    margin-bottom: 30px;
+    height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .slick-next:before, .slick-prev:before {
+            display: none;
+    }
+}
+
+.block-services div p:after {
+    content: " ";
+    display: block;
+    width: 70px;
+    height: 2px;
+    background: #c7b299;
+    margin: 33px auto;
+}
+
+@media (max-width: 1200px) {
+    .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
